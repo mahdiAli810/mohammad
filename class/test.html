@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <link rel="stylesheet" href="css.CSS">
+    <link rel="stylesheet" href="app.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <div class="input">
+                <h1>ثبت نام </h1>
+                <a href="../index.html">خانه</a>
+            </div>
+            <div>
+                <input required autofocus type="text" name="name" placeholder="نام شما" id="name-1">
+            </div>
+            <div>
+                <input required type="email" name="e-l" id="email" placeholder="ایمیل">
+            </div>
+            <div>
+                <input required type="password" maxlength="5" minlength="2" name="pas" id="password" placeholder="رمز عبور">
+            </div>
+            <div>
+                <input required type="password" maxlength="5" minlength="2" name="repas" id="password-2" placeholder="رمز عبور دوم">
+            </div>
+            <Label for="chek-1">شرایط <a href="#">من</a> رو میپذیرم</Label>
+            <input required type="checkbox" name="yes" id="chek-1">
+            <div>
+                <input type="submit" class="btn" value="ثبت نام">
+            </div>
+            <input type="reset" class="btn" value="پاک همه">
+        </fieldset>
+    </form>
+    <script src="/JS.js"></script>
+</body>
+</html>
